@@ -5,30 +5,30 @@ export interface DataItem {
 
 const sampleData: DataItem[] = [
   {
-    name: "Apple",
+    name: "A",
     children: [
       {
-        name: "Cosmic Crisp"
+        name: "AA"
       },{
-        name: "Red Delicious"
+        name: "AB"
       }
     ]
   },{
-    name: "Banana",
+    name: "B",
     children: [
       {
-        name: "Cavendish"
+        name: "BA"
       },{
-        name: "Gros Michel"
+        name: "BB"
       }
     ]
   },{
-    name: "Cherry",
+    name: "D",
     children: [
       {
-        name: "Maraschino"
+        name: "DA"
       },{
-        name: "Rainier"
+        name: "DB"
       }
     ]
   }
